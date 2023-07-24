@@ -24,5 +24,11 @@ if dA>0 and dC>0 and dB>0:
         status3=True
 if status1 and status2 and status3:
     print("É triangulo")
+    if(dA==dB==dC):
+        print("É Equilátero!")
+    elif(dA!=dB!=dC):
+        print("É Escaleno!")
+    else:
+        print("É Isósceles!")
 else:
     print("Não é triangulo")
