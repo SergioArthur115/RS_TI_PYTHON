@@ -8,5 +8,5 @@ estatura.sort()
 
 print("Estatura em ordem crescente: ",estatura)
 print("Menor estatura: ",estatura[0])
-print("Maior estatura: ",estatura[2])
 print("Estatura media: ",estatura[1])
+print("Maior estatura: ",estatura[2])
