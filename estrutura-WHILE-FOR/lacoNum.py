@@ -10,9 +10,10 @@ print(f"Média: {media:.2f}")
 
 num = int(input("Informe a quantidade de números: "))
 x=0
-while x<=num:
+soma1=0
+while x<num:
     n = float(input("Informe um número: "))
-    soma+=n
+    soma1+=n
     x+=1
-media=soma/num
+media=soma1/num
 print(f"Média: {media:.2f}")
