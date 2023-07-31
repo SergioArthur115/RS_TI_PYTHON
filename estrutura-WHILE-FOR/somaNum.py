@@ -1,6 +1,10 @@
-a= int(input("Informe A: "))
-b= int(input("Informe B: "))
+a = int(input("Informe A: "))
+b = int(input("Informe B: "))
 
 if a < b:
-    for i in range(a,b):
-        print(i+(i+1))
+    soma = 0
+    for i in range(a, b+1):
+        soma += 1
+        print("Soma: ", soma)
+else:
+    print("Error")

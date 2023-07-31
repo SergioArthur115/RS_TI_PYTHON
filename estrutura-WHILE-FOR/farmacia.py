@@ -18,5 +18,5 @@ for i in range(5):
     
     soma += preco_medicamento
 
-print("O produto mais barato é o", barato)
+print("O produto mais barato é: ", barato)
 print("A média é:", soma/5)
