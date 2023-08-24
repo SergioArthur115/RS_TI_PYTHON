@@ -1,3 +1,5 @@
+from Cliente import Cliente
+
 class Conta:
     def __init__(self, numero, saldo, cliente):
         self.numero = numero
@@ -5,9 +7,16 @@ class Conta:
         self.cliente = cliente
 
     def exibirSaldo(self):
-        print(f"Conta: {self.numero} || ", end="")
-        print(f"Cliente: {self.cliente}")
-        print(f"Saldo: {self.saldo:.2f}\n")
+        print(f"Conta: {self.numero}")
+        print(f"Cliente: {self.cliente}", end="")
+        if type(self.cliente) is list:
+            for cliente in self.cliente:
+                print(f"Cliente: {self.cliente[cliente]} | ", end=" ")
+        else:
+            print(self.cliente.nome, end=" | ")
+        print(f"Saldo: {self.saldo:.2f} \n")
+            
+                
 
     def sacar(self, valor):
         if self.saldo >= valor:
