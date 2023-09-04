@@ -1,9 +1,3 @@
-'''Crie uma interface com dois campos de entrada e um Label. 
-Os dois campos servirão para a entrada de dois inteiros, um 
-em cada campo, e o Label servirá para aplicar o evento de 
-clique com o botão esquerdo do mouse, a fim de somar os dois 
-inteiros das entradas e printar no console o resultado.'''
-
 import tkinter as soma
 
 
