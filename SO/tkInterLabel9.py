@@ -23,12 +23,6 @@ class Tela:
         self.lb2.grid(row=1,column=0)
         self.entradaTel.grid(row=1,column=1,padx=20)
         self.cadastrar.grid(row=2,column=0,columnspan=2,pady=20)
-    
-    def salvar(self):
-        nome=self.entradaNome.get()
-        telefone=self.entradaTel.get()
-        if self.arquivoAberto is None:
-            self.arquivoAberto = filedialog.
 
 
 janelaRaiz = tk.Tk()
